@@ -1,0 +1,5 @@
+2019-03-26_16:52:34.82212 time="2019-03-26T16:52:34Z" level=info msg=Starting version="gitlab-workhorse v8.3.1-20190312.203013"
+2019-03-26_16:52:34.83063 time="2019-03-26T16:52:34Z" level=info msg="keywatcher: starting process loop"
+2019-03-26_16:52:34.83249 time="2019-03-26T16:52:34Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-03-26_16:53:19.93952 time="2019-03-26T16:53:19Z" level=error msg=error correlation_id=laPKfOWRaX1 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2019-03-26_16:53:19.94084 localhost 127.0.0.1:0 - - [2019/03/26:16:53:19 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0-DEV" 0.025

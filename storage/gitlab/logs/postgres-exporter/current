@@ -1,0 +1,6 @@
+2019-03-26_16:52:34.71687 time="2019-03-26T16:52:34Z" level=info msg="Established new database connection." source="postgres_exporter.go:1035"
+2019-03-26_16:52:34.71740 time="2019-03-26T16:52:34Z" level=info msg="Error while closing non-pinging DB connection: <nil>" source="postgres_exporter.go:1041"
+2019-03-26_16:52:34.71755 time="2019-03-26T16:52:34Z" level=info msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres%20sslmode=allow): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused" source="postgres_exporter.go:1070"
+2019-03-26_16:52:34.71761 time="2019-03-26T16:52:34Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1178"
+2019-03-26_16:52:42.64519 time="2019-03-26T16:52:42Z" level=info msg="Established new database connection." source="postgres_exporter.go:1035"
+2019-03-26_16:52:42.67866 time="2019-03-26T16:52:42Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.11" source="postgres_exporter.go:965"

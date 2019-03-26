@@ -1,0 +1,12 @@
+2019-03-26_16:52:34.82269 time="2019-03-26T16:52:34Z" level=info msg="Starting Gitaly" version="Gitaly, version 1.27.1"
+2019-03-26_16:52:34.82281 time="2019-03-26T16:52:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2019-03-26_16:52:34.85487 time="2019-03-26T16:52:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2019-03-26_16:52:36.81722 time="2019-03-26T16:52:36Z" level=info msg="listening on unix socket" address=/var/opt/gitlab/gitaly/gitaly.socket
+2019-03-26_16:52:36.81737 time="2019-03-26T16:52:36Z" level=info msg="Starting prometheus listener" address="localhost:9236"
+2019-03-26_16:52:36.81876 time="2019-03-26T16:52:36Z" level=info msg="finished tempdir cleaner walk" storage=default time_ms=1
+2019-03-26_16:52:36.83090 time="2019-03-26T16:52:36Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 507 /tmp/gitaly-ruby017315472/socket.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=592
+2019-03-26_16:52:36.85725 time="2019-03-26T16:52:36Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 507 /tmp/gitaly-ruby017315472/socket.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=595
+2019-03-26_16:52:36.87386 time="2019-03-26T16:52:36Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+2019-03-26_16:52:36.89566 time="2019-03-26T16:52:36Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+2019-03-26_16:52:37.87010 time="2019-03-26T16:52:37Z" level=info msg="PID 592 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 507 /tmp/gitaly-ruby017315472/socket.0]" supervisor.name=gitaly-ruby.0
+2019-03-26_16:52:37.90674 time="2019-03-26T16:52:37Z" level=info msg="PID 595 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 507 /tmp/gitaly-ruby017315472/socket.1]" supervisor.name=gitaly-ruby.1

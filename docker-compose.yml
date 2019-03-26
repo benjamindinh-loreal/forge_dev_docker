@@ -1,0 +1,19 @@
+version: '2'
+services:
+  code-server:
+    build: ./code-server
+    ports:
+      - "8443:8443"
+    volumes:    
+      - "./storage/code:/root/project"
+  #gitlab:
+   #build: ./gitlab
+   #restart: always
+   #ports:
+     #- '80:80'
+     #- '443:443'
+     #- '22:22'
+   #volumes:
+     #- './storage/gitlab/config:/etc/gitlab'
+     #- './storage/gitlab/logs:/var/log/gitlab'
+     #- './storage/gitlab/data:/var/opt/gitlab'
