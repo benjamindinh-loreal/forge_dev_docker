@@ -1,273 +1,32 @@
-I, [2019-03-26T16:50:05.990461 #1242]  INFO -- : Refreshing Gem list
-I, [2019-03-26T16:51:09.956072 #780]  INFO -- : Refreshing Gem list
-I, [2019-03-26T16:51:55.583125 #566]  INFO -- : Refreshing Gem list
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
-ArgumentError: Already running on PID:566 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
-  /opt/gitlab/embedded/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
-  /opt/gitlab/embedded/bin/unicorn:23:in `load'
-  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
+I, [2019-04-02T12:08:50.579864 #1216]  INFO -- : Refreshing Gem list
+I, [2019-04-02T12:09:57.022517 #1216]  INFO -- : listening on addr=127.0.0.1:8080 fd=22
+I, [2019-04-02T12:09:57.022730 #1216]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=23
+I, [2019-04-02T12:09:57.493224 #1216]  INFO -- : master process ready
+I, [2019-04-02T12:09:57.756744 #1536]  INFO -- : worker=2 ready
+I, [2019-04-02T12:09:57.774332 #1529]  INFO -- : worker=0 ready
+I, [2019-04-02T12:09:57.819688 #1533]  INFO -- : worker=1 ready
+I, [2019-04-02T13:30:27.124012 #1216]  INFO -- : reaped #<Process::Status: pid 1529 exit 0> worker=0
+I, [2019-04-02T13:30:27.127273 #1216]  INFO -- : reaped #<Process::Status: pid 1533 exit 0> worker=1
+I, [2019-04-02T13:30:27.128738 #1216]  INFO -- : reaped #<Process::Status: pid 1536 exit 0> worker=2
+I, [2019-04-02T13:30:27.128901 #1216]  INFO -- : master complete
+I, [2019-04-02T13:31:33.820315 #615]  INFO -- : Refreshing Gem list
+I, [2019-04-02T13:35:58.903651 #612]  INFO -- : Refreshing Gem list
+I, [2019-04-02T13:37:54.512513 #612]  INFO -- : listening on addr=127.0.0.1:8080 fd=22
+I, [2019-04-02T13:37:54.512718 #612]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2019-04-02T13:37:54.512861 #612]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=23
+I, [2019-04-02T13:37:54.869801 #612]  INFO -- : master process ready
+I, [2019-04-02T13:37:55.121256 #862]  INFO -- : worker=0 ready
+I, [2019-04-02T13:37:55.271993 #865]  INFO -- : worker=1 ready
+I, [2019-04-02T13:37:55.292872 #868]  INFO -- : worker=2 ready
+I, [2019-04-02T13:40:30.921547 #613]  INFO -- : Refreshing Gem list
+I, [2019-04-02T13:41:34.853746 #613]  INFO -- : listening on addr=127.0.0.1:8080 fd=22
+I, [2019-04-02T13:41:34.853885 #613]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2019-04-02T13:41:34.854024 #613]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=23
+I, [2019-04-02T13:41:35.111457 #613]  INFO -- : master process ready
+I, [2019-04-02T13:41:35.147693 #815]  INFO -- : worker=0 ready
+I, [2019-04-02T13:41:35.221482 #818]  INFO -- : worker=1 ready
+I, [2019-04-02T13:41:35.282857 #821]  INFO -- : worker=2 ready
+W, [2019-04-02T13:54:33.289299 #818]  WARN -- : #<Unicorn::HttpServer:0x00007f486270b3e8>: worker (pid: 818) exceeds memory limit (443035648.0 bytes > 420210581 bytes)
+W, [2019-04-02T13:54:33.289644 #818]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 818) alive: 720 sec (trial 1)
+I, [2019-04-02T13:54:33.882243 #613]  INFO -- : reaped #<Process::Status: pid 818 exit 0> worker=1
+I, [2019-04-02T13:54:34.062908 #2356]  INFO -- : worker=1 ready

@@ -16,7 +16,7 @@ timeout 60
 preload_app true
 
 # How many worker processes
-worker_processes 2
+worker_processes 3
 
 # Load the Gitlab::Cluster::LifecycleEvents module
 # to notify the application of unicorn events

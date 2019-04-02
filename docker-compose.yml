@@ -6,14 +6,36 @@ services:
       - "8443:8443"
     volumes:    
       - "./storage/code:/root/project"
-  #gitlab:
-   #build: ./gitlab
+  gitlab:
+   build: ./gitlab
    #restart: always
-   #ports:
-     #- '80:80'
-     #- '443:443'
+   ports:
+     - '80:80'
+     - '443:443'
      #- '22:22'
-   #volumes:
-     #- './storage/gitlab/config:/etc/gitlab'
-     #- './storage/gitlab/logs:/var/log/gitlab'
-     #- './storage/gitlab/data:/var/opt/gitlab'
+   volumes:
+     - './storage/gitlab/config:/etc/gitlab'
+     - './storage/gitlab/logs:/var/log/gitlab'
+     - './storage/gitlab/data:/var/opt/gitlab'
+  jenkins:
+    image: 'jenkins/jenkins:lts'
+    labels:
+      kompose.service.type: nodeport
+    privileged: true
+    ports:
+      - '8888:8080'
+      - '4430:8443'
+      - '50000:50000'
+    volumes:
+      - 'jenkins_data:/jenkins_config'
+  sonarqube:
+    image: sonarqube
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./storage/sonarqube/conf:/opt/sonarqube/conf
+      - ./storage/sonarqube/data:/opt/sonarqube/data
+      - ./storage/sonarqube/bundled_plugins:/opt/sonarqube/lib/bundled-plugins
+volumes:
+  jenkins_data:
+    driver: local

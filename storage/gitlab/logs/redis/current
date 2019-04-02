@@ -1,23 +1,57 @@
-2019-03-26_16:52:34.69746                 _._                                                  
-2019-03-26_16:52:34.69751            _.-``__ ''-._                                             
-2019-03-26_16:52:34.69751       _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
-2019-03-26_16:52:34.69751   .-`` .-```.  ```\/    _.,_ ''-._                                   
-2019-03-26_16:52:34.69751  (    '      ,       .-`  | `,    )     Running in standalone mode
-2019-03-26_16:52:34.69752  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
-2019-03-26_16:52:34.69752  |    `-._   `._    /     _.-'    |     PID: 509
-2019-03-26_16:52:34.69752   `-._    `-._  `-./  _.-'    _.-'                                   
-2019-03-26_16:52:34.69752  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
-2019-03-26_16:52:34.69752  |    `-._`-._        _.-'_.-'    |           http://redis.io        
-2019-03-26_16:52:34.69753   `-._    `-._`-.__.-'_.-'    _.-'                                   
-2019-03-26_16:52:34.69753  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
-2019-03-26_16:52:34.69753  |    `-._`-._        _.-'_.-'    |                                  
-2019-03-26_16:52:34.69754   `-._    `-._`-.__.-'_.-'    _.-'                                   
-2019-03-26_16:52:34.69755       `-._    `-.__.-'    _.-'                                       
-2019-03-26_16:52:34.69755           `-._        _.-'                                           
-2019-03-26_16:52:34.69756               `-.__.-'                                               
-2019-03-26_16:52:34.69756 
-2019-03-26_16:52:34.70547 509:M 26 Mar 16:52:34.705 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
-2019-03-26_16:52:34.70551 509:M 26 Mar 16:52:34.705 # Server started, Redis version 3.2.12
-2019-03-26_16:52:34.70557 509:M 26 Mar 16:52:34.705 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-2019-03-26_16:52:34.70563 509:M 26 Mar 16:52:34.705 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
-2019-03-26_16:52:34.70566 509:M 26 Mar 16:52:34.705 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2019-04-02_13:40:19.11003                 _._                                                  
+2019-04-02_13:40:19.11012            _.-``__ ''-._                                             
+2019-04-02_13:40:19.11013       _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+2019-04-02_13:40:19.11013   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2019-04-02_13:40:19.11013  (    '      ,       .-`  | `,    )     Running in standalone mode
+2019-04-02_13:40:19.11014  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2019-04-02_13:40:19.11014  |    `-._   `._    /     _.-'    |     PID: 500
+2019-04-02_13:40:19.11014   `-._    `-._  `-./  _.-'    _.-'                                   
+2019-04-02_13:40:19.11015  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2019-04-02_13:40:19.11015  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2019-04-02_13:40:19.11015   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2019-04-02_13:40:19.11015  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2019-04-02_13:40:19.11016  |    `-._`-._        _.-'_.-'    |                                  
+2019-04-02_13:40:19.11016   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2019-04-02_13:40:19.11016       `-._    `-.__.-'    _.-'                                       
+2019-04-02_13:40:19.11017           `-._        _.-'                                           
+2019-04-02_13:40:19.11018               `-.__.-'                                               
+2019-04-02_13:40:19.11018 
+2019-04-02_13:40:19.11031 500:M 02 Apr 13:40:19.110 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2019-04-02_13:40:19.11037 500:M 02 Apr 13:40:19.110 # Server started, Redis version 3.2.12
+2019-04-02_13:40:19.17065 500:M 02 Apr 13:40:19.162 * DB loaded from disk: 0.052 seconds
+2019-04-02_13:40:19.17068 500:M 02 Apr 13:40:19.162 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2019-04-02_13:45:20.02067 500:M 02 Apr 13:45:20.020 * 10 changes in 300 seconds. Saving...
+2019-04-02_13:45:20.02274 500:M 02 Apr 13:45:20.022 * Background saving started by pid 1288
+2019-04-02_13:45:20.03016 1288:C 02 Apr 13:45:20.030 * DB saved on disk
+2019-04-02_13:45:20.03052 1288:C 02 Apr 13:45:20.030 * RDB: 0 MB of memory used by copy-on-write
+2019-04-02_13:45:20.12302 500:M 02 Apr 13:45:20.122 * Background saving terminated with success
+2019-04-02_13:50:21.05328 500:M 02 Apr 13:50:21.053 * 10 changes in 300 seconds. Saving...
+2019-04-02_13:50:21.05843 500:M 02 Apr 13:50:21.058 * Background saving started by pid 1868
+2019-04-02_13:50:21.06191 1868:C 02 Apr 13:50:21.061 * DB saved on disk
+2019-04-02_13:50:21.06236 1868:C 02 Apr 13:50:21.062 * RDB: 0 MB of memory used by copy-on-write
+2019-04-02_13:50:21.15922 500:M 02 Apr 13:50:21.159 * Background saving terminated with success
+2019-04-02_13:55:22.08355 500:M 02 Apr 13:55:22.079 * 10 changes in 300 seconds. Saving...
+2019-04-02_13:55:22.08592 500:M 02 Apr 13:55:22.082 * Background saving started by pid 2461
+2019-04-02_13:55:22.11426 2461:C 02 Apr 13:55:22.114 * DB saved on disk
+2019-04-02_13:55:22.11630 2461:C 02 Apr 13:55:22.116 * RDB: 1 MB of memory used by copy-on-write
+2019-04-02_13:55:22.18264 500:M 02 Apr 13:55:22.182 * Background saving terminated with success
+2019-04-02_14:00:23.05052 500:M 02 Apr 14:00:23.050 * 10 changes in 300 seconds. Saving...
+2019-04-02_14:00:23.05304 500:M 02 Apr 14:00:23.052 * Background saving started by pid 3064
+2019-04-02_14:00:23.06218 3064:C 02 Apr 14:00:23.062 * DB saved on disk
+2019-04-02_14:00:23.06278 3064:C 02 Apr 14:00:23.062 * RDB: 1 MB of memory used by copy-on-write
+2019-04-02_14:00:23.15713 500:M 02 Apr 14:00:23.154 * Background saving terminated with success
+2019-04-02_14:05:24.06326 500:M 02 Apr 14:05:24.063 * 10 changes in 300 seconds. Saving...
+2019-04-02_14:05:24.06913 500:M 02 Apr 14:05:24.069 * Background saving started by pid 3643
+2019-04-02_14:05:24.07323 3643:C 02 Apr 14:05:24.073 * DB saved on disk
+2019-04-02_14:05:24.07398 3643:C 02 Apr 14:05:24.073 * RDB: 0 MB of memory used by copy-on-write
+2019-04-02_14:05:24.17014 500:M 02 Apr 14:05:24.170 * Background saving terminated with success
+2019-04-02_14:10:25.05829 500:M 02 Apr 14:10:25.058 * 10 changes in 300 seconds. Saving...
+2019-04-02_14:10:25.06212 500:M 02 Apr 14:10:25.062 * Background saving started by pid 4222
+2019-04-02_14:10:25.06951 4222:C 02 Apr 14:10:25.069 * DB saved on disk
+2019-04-02_14:10:25.06999 4222:C 02 Apr 14:10:25.069 * RDB: 0 MB of memory used by copy-on-write
+2019-04-02_14:10:25.16321 500:M 02 Apr 14:10:25.163 * Background saving terminated with success
+2019-04-02_14:15:26.08416 500:M 02 Apr 14:15:26.084 * 10 changes in 300 seconds. Saving...
+2019-04-02_14:15:26.08899 500:M 02 Apr 14:15:26.088 * Background saving started by pid 4804
+2019-04-02_14:15:26.09269 4804:C 02 Apr 14:15:26.092 * DB saved on disk
+2019-04-02_14:15:26.09326 4804:C 02 Apr 14:15:26.093 * RDB: 0 MB of memory used by copy-on-write
+2019-04-02_14:15:26.18933 500:M 02 Apr 14:15:26.189 * Background saving terminated with success

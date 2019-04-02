@@ -1,3 +1,0 @@
-2019-03-26_16:51:53.12113 time="2019-03-26T16:51:53Z" level=info msg=Starting version="gitlab-workhorse v8.3.1-20190312.203013"
-2019-03-26_16:51:53.12924 time="2019-03-26T16:51:53Z" level=info msg="keywatcher: starting process loop"
-2019-03-26_16:51:53.13064 time="2019-03-26T16:51:53Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
