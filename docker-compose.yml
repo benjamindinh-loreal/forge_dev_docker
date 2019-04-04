@@ -36,6 +36,20 @@ services:
       - ./storage/sonarqube/conf:/opt/sonarqube/conf
       - ./storage/sonarqube/data:/opt/sonarqube/data
       - ./storage/sonarqube/bundled_plugins:/opt/sonarqube/lib/bundled-plugins
+  nexus:
+    image: sonatype/nexus3
+    volumes:
+      - "./storage/nexus-data:/sonatype-work"
+    ports:
+      - "8081:8081"
+  registry:
+    image: registry
+    ports:
+      - "5000:5000"
+  nextcloud:
+    image: nextcloud
+    ports:
+      - "8999:80"
 volumes:
   jenkins_data:
     driver: local
